@@ -1,0 +1,204 @@
+{
+    "navbar":{
+        "ar":{
+            "home":"الرئيسية",
+            "about":"من نحن",
+            "services":"خدماتنا",
+            "contact":"اتصل بنا",
+            "language":"اللغة",
+            "mail":"Info@blackytreasure.com",
+            "phone":"+123456789",
+            "location":"location",
+            "copyright":"Copyright © 2023 blackytreasure | Powered by Blackytreasure",
+            "contactUsTxt":"اتصل بنا",
+            "locationTxt":"موقعنا",
+            "callTxt":"دعنا نصل بك"
+        },
+        "en":{
+            "home":"Home",
+            "about":"About",
+            "services":"Services",
+            "contact":"Contact Us",
+            "language":"Language",
+            "mail":"Info@blackytreasure.com",
+            "phone":"+123456789",
+            "location":"location",
+            "copyright":"Copyright © 2023 blackytreasure | Powered by Blackytreasure",
+            "contactUsTxt":"Contact Us",
+            "locationTxt":"Our Location",
+            "callTxt":"Let us Contact you"
+        }
+    },
+    "contactForm":{
+        "ar":{
+            "text":"دعنا نتواصل لنساعدك 00905491475000 - 00905419067771 - 0090 5491470800",
+            "name":"الاسم",
+            "phone":"رقم الهاتف",
+            "email":"البريد الالكتروني",
+            "btnText":"ارسال",
+            "required":"* هذا الحقل مطلوب",
+            "txtMore":"* الاسم يجب ان يتكون من 3 أحرف فأكثر",
+            "txtLess":"* الاسم يجب الا يزيد عن 15 حرف",
+            "emailForm":"* يجب ان يكون الايميل بهذا الشكل mostakar@gmail.com",
+            "details":"التفاصيل",
+            "notValid":"* هذا الرقم غير مطابق لكود البلد"
+        },
+        "en":{
+            "text":"Let's get in touch to help you  00905491475000 - 00905419067771 - 0090 5491470800",
+            "name":"Name",
+            "phone":"Phone Number",
+            "email":"Email",
+            "btnText":"Send",
+            "required":"* This field is required",
+            "txtMore":"* The name must be 3 letters or more",
+            "txtLess":"* The name must not be more than 15 letters",
+            "emailForm":"* Email must be like this form mostakar@gmail.com",
+            "details":"Massage",
+            "notValid":"* Phone number not match country key"
+        }
+    },
+    "header":{
+        "ar":{
+            "companyName":"Blacky Treasure",
+            "longText":"",
+            "shortText":"",
+            "btnText":""
+        },
+        "en":{
+            "companyName":"Blacky Treasure",
+            "longText":"",
+            "shortText":"",
+            "btnText":""
+        }
+    },
+    "services":{
+        "ar":{
+            "service":"",
+            "airShipping":"",
+            "seaShipping":"",
+            "landShipping":"",
+            "partialShipping":"",
+            "commercialServices":"",
+            "gatheringShipments":"",
+            "textBig1":"",
+            "textSmall1":"",
+            "textBig2":"",
+            "textSmall2":"",
+            "textBig3":"",
+            "textSmall3":"",
+            "textBig4":"",
+            "textSmall4":"",
+            "textBig5":"",
+            "textSmall5":"",
+            "textBig6":"",
+            "textSmall6":"",
+            "textBig7":"",
+            "textSmall7":"",
+            "textBig8":"",
+            "textSmall8":"",
+            "textBig9":"",
+            "textSmall9":""
+        },
+        "en":{
+            "service":"Our Services",
+            "airShipping":"",
+            "seaShipping":"",
+            "landShipping":"",
+            "partialShipping":"",
+            "commercialServices":"",
+            "gatheringShipments":"",
+            "textBig1":"",
+            "textSmall1":"",
+            "textBig2":"",
+            "textSmall2":"",
+            "textBig3":"",
+            "textSmall3":"",
+            "textBig4":"",
+            "textSmall4":"",
+            "textBig5":"",
+            "textSmall5":"",
+            "textBig6":"",
+            "textSmall6":"",
+            "textBig7":"",
+            "textSmall7":"",
+            "textBig8":"",
+            "textSmall8":"",
+            "textBig9":"",
+            "textSmall9":""
+        }
+    },
+    "contact":{
+        "ar":{
+            "contactTxt":"اتصل بنا"
+        },
+        "en":{
+            "contactTxt":"Contact Us"
+        }
+    },
+    "about":{
+        "ar":{
+            "aboutTxt":"من نحن",
+            "aboutTxt1":"",
+            "aboutTxt2":"",
+            "aboutTxt3":"",
+            "aboutTxt4":"",
+            "aboutTxt5":"",
+            "aboutTxt6":""
+        },
+        "en":{
+            "aboutTxt":"",
+            "aboutTxt1":"",
+            "aboutTxt2":"",
+            "aboutTxt3":"",
+            "aboutTxt4":"",
+            "aboutTxt5":"",
+            "aboutTxt6":""
+        }
+    },
+    "loginForm":{
+        "ar":{
+            "text":"لوحة التحكم",
+            "user":"الاسم",
+            "password":"كلمة السر",
+            "btnText":"دخول",
+            "required":"* هذا الحقل مطلوب"
+        },
+        "en":{
+            "text":"Admin Dashboard",
+            "user":"User",
+            "password":"Password",
+            "btnText":"Login",
+            "required":"* This field is required"
+        }
+    },
+    "admin":{
+        "ar":{
+            "name":"الاسم",
+            "phone":"رقم الهاتف",
+            "email":"البريد الالكتروني",
+            "details":"التفاصيل",
+            "signout":"خروج",
+            "previous":"السابق",
+            "next":"التالى",
+            "date":"التاريخ"
+        },
+        "en":{
+            "name":"Name",
+            "phone":"Phone Number",
+            "email":"Email",
+            "details":"Details",
+            "signout":"Sign Out",
+            "previous":"Previous",
+            "next":"Next",
+            "date":"Date"
+        }
+    },
+    "notFound":{
+        "ar":{
+            "text":"هذه الصفحة غير موجوده "
+        },
+        "en":{
+            "text":"Page Not Found Error 404"
+        }
+    }
+}

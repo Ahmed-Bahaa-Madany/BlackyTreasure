@@ -1,0 +1,16 @@
+section.nmh-contactUs{
+    span.txt-color{
+        color:#d50029;
+        // font-size: 3rem;
+    }
+    span.bg-color{
+        background-color: #d50029;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border-radius: 10px;
+        svg path{
+            fill: white;
+        }
+    }
+}
