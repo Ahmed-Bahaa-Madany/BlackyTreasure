@@ -159,7 +159,7 @@ export default function Home() {
             <header id="home-header" className="top home-header" dir={language === "arabic" ? "rtl" : "ltr"}>
                 <div className="container">
                     <div className='row g-5'>
-                        <div className='col-12 col-md-6'>
+                        <div className='col-6'>
                             <div className='header-txt d-flex justify-content-center flex-column pt-5'>
                                 <span className='fs-1 fw-bold mb-3' id="h-txt">{writeTitel}</span>
                                 <span className='fs-4 mb-3' id='h2-txt'>{writeTxt}</span>
@@ -168,7 +168,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6'>
+                        <div className='col-6'>
                             <div className='position-relative'>
                                 <div className='header-image position-absolute'>
                                     <img src={Pirate} className="d-block ms-auto" alt="Pirate"/>

@@ -157,19 +157,36 @@ section.nav-bar{
 // Home Header ======================================
 header.home-header{
    img{
-    width: 400px;
+    width: 75%;
    }
    .header-image{
-    top: -250px;
+    top: -190px;
     right: 0;
     z-index: 1000;
    }
    .header-txt{
-    height: 400px;
+    min-height: 400px;
    }
 }
 
+@media only screen and (max-width: 991px) {
+  header.home-header{
+    .header-image{
+     top: -150px;
+    }
+  } 
+}
 
+@media only screen and (max-width: 600px) {
+  header.home-header{
+    img{
+      width: 50%;
+     }
+    .header-image{
+     top: -150px;
+    }
+  } 
+}
 
 // Home Service ======================================
 section.home-service{
@@ -252,6 +269,18 @@ section.home-service{
 }
 
 // contact us  ======================================
+
+section.contact-modal{
+  .bg-image{
+    background-image: url("../src/assets/images/message.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+  }
+}
 
 section.contact-form{
 .PhoneInput {

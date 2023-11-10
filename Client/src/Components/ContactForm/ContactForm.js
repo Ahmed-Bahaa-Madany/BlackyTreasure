@@ -112,9 +112,9 @@ export default function ContactForm() {
 
 
     return (
-        <section className='contact-form my-5'>
-            <form className="p-3 shadow border border-0 bg-white" onSubmit={(e) => handleFormSubmit(e)}>
-                <div className="mt-3 mx-3">
+        <section className='contact-form my-5 py-5 bg-transparent d-flex justify-content-center'>
+            <form className="mt-5 pt-5 ps-3 border border-0 w-50" onSubmit={(e) => handleFormSubmit(e)}>
+                <div className="">
                     <label htmlFor="name" className="form-label">{contactForm?.name}</label>
                     <input type="text" className="form-control" id="inputName" name="inputName" aria-describedby="inputname" value={form.inputName} onChange={(e) => handelFormChange(e)} />
                     <div className="pt-1 text-danger" id='inputname'>
@@ -123,7 +123,7 @@ export default function ContactForm() {
                         </small>
                     </div>
                 </div>
-                <div className="mt-3 mx-3 " >
+                <div>
                     <label htmlFor="phone" className="form-label">{contactForm?.phone}</label>
                     <PhoneInput
                         labels={language === "arabic" ? ar : en}
@@ -140,7 +140,7 @@ export default function ContactForm() {
                     </div>
                 </div>
 
-                <div className="mt-3 mx-3">
+                <div className="">
                     <label htmlFor="email" className="form-label">{contactForm?.email}</label>
                     <input type="email" className="form-control" id="inputEmail" name="inputEmail" aria-describedby="inputemail" value={form.inputEmail} onChange={(e) => handelFormChange(e)} />
                     <div className="pt-1 text-danger" id='inputemail'>
@@ -150,7 +150,7 @@ export default function ContactForm() {
                     </div>
                 </div>
 
-                <div className="mt-3 mx-3 pb-3">
+                <div className="pb-3">
                     <label htmlFor="inputDetails" className="form-label">{contactForm?.details}</label>
                     <textarea className="form-control" id="inputDetails" rows="3" name="inputDetails" aria-describedby="inputdetails" onChange={(e) => handelFormChange(e)} value={form.inputDetails}></textarea>
                     <div className="pt-1 text-danger" id='inputdetails'>

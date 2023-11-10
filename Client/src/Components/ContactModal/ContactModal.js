@@ -16,11 +16,12 @@ export default function ContactModal() {
         }
     }, [language])
   return (
-    <section className='contact-modal py-5' id="contact-modal">
-        {/* Modal  */}
+    <section className='contact-modal' id="contact-modal">
         <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog">
-                <ContactForm />
+            <div className="modal-dialog modal-lg modal-dialog-centered">
+                <div className='bg-image'>
+                    <ContactForm />
+                </div>
             </div>
         </div>
     </section>
