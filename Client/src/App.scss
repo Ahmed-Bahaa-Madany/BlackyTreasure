@@ -143,6 +143,22 @@ section.nav-bar{
       ul.dropdown-menu{
         border: 0;
       }
+      .navbar-toggler {
+        background-color: #3a7ab5de ;
+      }
+}
+
+@media only screen and (min-width: 991px) and (max-width:1200px){
+  section.nav-bar{
+    .nav-item{
+      a{
+        font-size: 0.9rem !important;
+      }
+    }
+    .offcanvas-body{
+      padding-left: 20px;
+    }
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -152,7 +168,17 @@ section.nav-bar{
       .navbar-light .navbar-nav .dropdown-menu {
         background-color: #3a7ab5de ;
       }
+      section.nav-bar>div{
+        padding: 20px 0 0 0 !important;
+      }
+      .offcanvas-body{
+        border-radius: 0 !important;
+        .logo {
+          display: none;
+        }
+      }
 }
+
 
 // Home Header ======================================
 header.home-header{
@@ -171,20 +197,64 @@ header.home-header{
 
 @media only screen and (max-width: 991px) {
   header.home-header{
+    img{
+      width: 85%;
+     }
     .header-image{
-     top: -150px;
+     top: -3.5rem;
     }
+    .header-txt{
+      min-height: 300px;
+     }
+     .header-txt{
+      min-height: 300px;
+      span:first-child{
+        font-size: 1.1rem !important;
+      }
+      span:nth-child(2){
+        font-size: 1rem !important;
+      }
+      button{
+        font-size: 0.9rem !important;
+        padding: .8rem .5rem !important;
+      }
+     }
   } 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   header.home-header{
     img{
-      width: 50%;
+      width: 100%;
+     }
+     .header-image{
+      top: -4rem ;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+  header.home-header{
+    img{
+      width: 100%;
      }
     .header-image{
-     top: -150px;
+      top: 2rem;
     }
+    .header-txt{
+      min-height: 300px;
+      span:first-child{
+        font-size: 1.1rem !important;
+      }
+      span:nth-child(2){
+        font-size: 1rem !important;
+      }
+      button{
+        font-size: 0.9rem !important;
+        padding: .8rem .5rem !important;
+      }
+     }
   } 
 }
 
@@ -266,6 +336,25 @@ section.home-service{
   // .carousel-indicators .active {
   //   background-image: url("../src/assets/images/Btn-Box-Open.png");
   // }
+}
+
+@media only screen and (max-width: 991px) {
+  section.home-service{
+    margin-top: 5rem !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section.home-service{
+    margin-top: 0 !important;
+    .carousel-indicators [data-bs-target] {
+      border-radius: 5px;
+      padding: 4px 10px;
+      border: 1px solid;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
 }
 
 // contact us  ======================================
@@ -670,7 +759,7 @@ section.home-about{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 65vh;
+        height: 50vh;
         padding-top: 3rem;
         padding-bottom: 3rem;
         position: relative;
@@ -716,6 +805,25 @@ section.home-about{
             border-radius: 10px;
 }
     } 
+}
+
+@media only screen and (max-width: 991px) {
+  section.home-about{
+    .bg-image{
+      height: 70vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section.home-about{
+    .bg-image{
+      height: 100vh;
+    }
+    .card{
+      width: 90%;
+    }
+  }
 }
 
 // Home crew ======================================

@@ -10,12 +10,6 @@ import { EffectCoverflow} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import '../../../node_modules/swiper/swiper-bundle.min.css';
 
-import Gold from '../../assets/images/Gold.png'
-import Anchor from '../../assets/images/Anchor.png'
-import Scope from '../../assets/images/Scope.png'
-import SmallMap from '../../assets/images/Small Map.png'
-import SmallShip from '../../assets/images/Small Ship.png'
-
 import galleryTilteImage1 from '../../assets/images/the-little-mermaid-title.png'
 import galleryTilteImage2 from '../../assets/images/the-65-title.png'
 import galleryTilteImage3 from '../../assets/images/the-black-demon-title.png'
@@ -185,7 +179,7 @@ export default function Home() {
                     <img src={Scope} alt='Icon'/>
                 </div> */}
                 <div className='container mt-5'>
-                    <div className='row'>
+                    <div className='row g-5'>
                         <div className='col-12 col-lg-4'>
                             <div className='service-txt d-flex flex-column pt-4'>
                                 <span className='fw-bold'>DISCOVER OUR CLUB</span>
@@ -194,7 +188,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='col-12 col-lg-8'>
-                            <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-keyboard="true">
+                            <div id="carouselExampleDark" className="carousel carousel-dark slide d-none d-sm-none d-md-block" data-bs-ride="carousel" data-bs-keyboard="true">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -287,6 +281,118 @@ export default function Home() {
                                 <span className="visually-hidden">Next</span>
                             </button> */}
                             </div>
+
+
+                            <div id="carouselExampleDark2" className="carousel carousel-dark slide d-block d-md-none" data-bs-ride="carousel" data-bs-keyboard="true">
+                            <div className="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            </div>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-1">
+                                                <div className="card-body text-white  ">
+                                                    <h6 className="card-title">Marketing website</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. ome quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-2">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">Commercial website</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-3">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">Kids hybrid games</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-1">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">Educational video games</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-2">
+                                                <div className="card-body text-white  ">
+                                                    <h6 className="card-title">AR/VR Experience</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-3">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">virtual labs (simulation models)</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-1">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">interactive dome experiences</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className='row gy-3'>
+                                        <div className='col-12 col-md-4'>
+                                            <div className="card py-3 px-3 w-100 card-2">
+                                                <div className="card-body text-white ">
+                                                    <h6 className="card-title">VR rehabilitation games</h6>
+                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,35 +401,36 @@ export default function Home() {
             <section className='home-about' id='home-about'>
                 <div className="bg-image py-5">
                     <div className='bg-opacity'></div>
-                    {/* <div className='position-absolute top-0 start-0 icon-top'>
-                        <img src={SmallMap} alt='Icon'/>
-                    </div> */}
-                    <div className='container position-relative py-5'>
-                        <div className='position-absolute top-0 start-0 w-100 py-5'>
+                    <div className='container position-relative'>
+                        <div className='w-100 position-absolute top-0 start-0 w-100 py-5'>
                             <div className='vision my-5'>
-                                <div className='row'>
+                                <div className='row g-3'>
                                     <div className='col-12 col-lg-6'>
-                                        <div className='about-txt d-flex flex-column pt-4  text-white'>
+                                        <div className='about-txt d-flex flex-column pt-4 text-white text-center'>
                                             <span className='fw-bold'>OUR VALUE</span>
                                             <span className='fs-2 fw-bold d-inline-block my-3'>See the fish, feel the thrill, catch the rewards</span>
                                             <span className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</span>
                                         </div>
                                     </div>
                                     <div className='col-12 col-lg-6'>
-                                        <div className='row gy-3'>
+                                        <div className='row g-3'>
                                             <div className='col-12 col-md-6'>
-                                                <div className="card py-3 px-3 w-100 text-white" style={{width: "18rem"}}>
-                                                    <div className="card-body  ">
-                                                        <h6 className="card-title text-center">Vision</h6>
-                                                        <p className="card-text fw-bold fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <div className="card p-3 text-white">
+                                                        <div className="card-body  ">
+                                                            <h6 className="card-title text-center">Vision</h6>
+                                                            <p className="card-text fw-bold fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className='col-12 col-md-6'>
-                                                <div className="card py-3 px-3 w-100 text-white" style={{width: "18rem"}}>
-                                                    <div className="card-body ">
-                                                        <h6 className="card-title text-center">Mission</h6>
-                                                        <p className="card-text fw-bold fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <div className="card p-3 text-white">
+                                                        <div className="card-body ">
+                                                            <h6 className="card-title text-center">Mission</h6>
+                                                            <p className="card-text fw-bold fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
